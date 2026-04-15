@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>My WebPortfolio</title>
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<nav class="navbar navbar-dark bg-dark navbar-expand-lg fixed-top shadow">
+  <div class="container">
+    <a class="navbar-brand text-info fw-bold" href="#">My Portfolio</a>
+
+    <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navMenu">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navMenu">
+      <ul class="navbar-nav ms-auto">
+        <li><a class="nav-link" href="#home">Home</a></li>
+        <li><a class="nav-link" href="#about">About</a></li>
+        <li><a class="nav-link" href="#skills">Skills</a></li>
+        <li><a class="nav-link" href="#projects">Projects</a></li>
+        <li><a class="nav-link" href="#contact">Contact</a></li>
+      </ul>
+      <button id="themeToggle" class="btn btn-outline-info ms-3">🌙</button>
+    </div>
+  </div>
+</nav>
+<section id="home" class="hero text-light d-flex align-items-center text-center">
+  <div class="container">
+    <img src="profile.jpg" class="rounded-circle mb-3" width="150">
+    <h1>Hi, I'm <span class="text-info">ABEL MUTANHUKI</span></h1>
+    <p class="lead">Creative Web Developer and Software Developer</p>
+  </div>
+</section>
+<section id="about" class="container my-5">
+  <h2>About Me</h2>
+  <p>
+    I am a passionate developer focused on web technologies and software development.I build responsive, user-friendly applications using modern tools.I am currently a student at MIDLANDS STATE UNIVERSITY. My degree program is BACHELOR OF SCIENCE HONOURS DEGREE IN SOFTWARE ENGINEERING.<br> I enjoy building complex mobile applications as well as computer softwares . The most fun part is web development. I am a passionate and dedicated developer with a strong interest in web technologies and software development.<br> I am currently focused on building modern, responsive, and user-friendly applications that solve real-world problems. I have experience working with technologies such as HTML, CSS, JavaScript, and Bootstrap, which I use to create interactive and responsive designs.I am particularly interested in developing systems that improve efficiency, such as my attendance tracking and job connection platforms. <br>I enjoy problem-solving, learning new technologies, and continuously improving my coding skills. My strengths include im good at debugging, i have good backend logic and im very creative. My goal is to grow into a professional full-stack developer and contribute to innovative projects in the tech industry. I am always eager to learn, adapt, and take on new challenges that help me expand my knowledge and experience. 
+  </p>
+  <div class="row text-center mt-4">
+    <div class="col">
+      <h3 class="counter" data-target="7">0</h3>
+      <p>Projects</p>
+    </div>
+    <div class="col">
+      <h3 class="counter" data-target="2">0</h3>
+      <p>Years Experience</p>
+    </div>
+    <div class="col">
+      <h3 class="counter" data-target="5">0</h3>
+      <p>Technologies</p>
+    </div>
+  </div>
+</section>
+<section id="skills" class="container my-5">
+  <h2>Skills</h2>
+
+  <h5>Programming Languages</h5>
+  <p>HTML, CSS, JavaScript, Python</p>
+
+  <h5>Frameworks / Libraries</h5>
+  <p>Bootstrap</p>
+
+  <h5>Tools / Platforms</h5>
+  <p>GitHub, VS Code</p>
+
+  <h5>Databases</h5>
+  <p>MySQL</p>
+</section>
+<section id="projects" class="container my-5">
+  <h2>Projects</h2>
+
+  <div class="row">
+
+    <div class="col-md-4">
+      <div class="card p-3">
+        <h5>MyAttendanceTracker</h5>
+        <p>QR-based student attendance system.</p>
+        <p><strong>Tech:</strong> HTML, JS</p>
+        <a href="#" class="btn btn-info">GitHub</a>
+      </div>
+    </div>
+
+    <div class="col-md-4">
+      <div class="card p-3">
+        <h5>My-JobconneKt</h5>
+        <p>Job connection platform for employers and employees.</p>
+        <p><strong>Tech:</strong> Web App</p>
+        <a href="#" class="btn btn-info">Live Demo</a>
+      </div>
+    </div>
+
+    <div class="col-md-4">
+      <div class="card p-3">
+        <h5>Portfolio Website</h5>
+        <p>Personal responsive website.</p>
+        <p><strong>Tech:</strong> HTML, CSS</p>
+        <a href="#" class="btn btn-info">GitHub</a>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<section id="contact" class="container my-5">
+  <h2>Contact Me</h2>
+
+  <form id="contactForm">
+    <input type="text" id="name" class="form-control mb-3" placeholder="Your Name">
+    <input type="email" id="email" class="form-control mb-3" placeholder="Your Email">
+    <textarea id="message" class="form-control mb-3" placeholder="Message"></textarea>
+    <button class="btn btn-info">Send Message</button>
+  </form>
+
+  <div class="mt-3">
+    <a href="#">🌐</a>
+    <a href="#">💼</a>
+    <a href="#">📧</a>
+  </div>
+</section>
+
+<footer class="bg-dark text-center text-light py-3">
+  <p>© 2026 ABEL MUTANHUKI</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

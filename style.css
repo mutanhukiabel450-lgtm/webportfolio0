@@ -1,0 +1,18 @@
+body {
+  transition: 0.3s;
+}
+
+.hero {
+  height: 100vh;
+  background: linear-gradient(to right, #000, #222);
+}
+
+.dark-mode {
+  background-color: #121212;
+  color: white;
+}
+
+.dark-mode .card {
+  background-color: #1e1e1e;
+  color: white;
+}
